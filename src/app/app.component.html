@@ -1,0 +1,10 @@
+<h1>Angular Pipes</h1>
+
+<p>Original: {{text}}</p>
+<p>Reversed: {{ text| reverse }}</p>
+
+<p>Today's Date:{{ today | date : 'fullDate'}}</p>
+<p>UpperCase: {{'hello'| uppercase}}</p>
+<p>Currency:{{amount|currency:'USD'}}</p>
+<p>Decimal:{{pi|number:'1.2-2'}}</p>
+<p>Async: {{ observable$ | async }}</p>
